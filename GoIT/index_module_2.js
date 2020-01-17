@@ -7,18 +7,7 @@
 // Нумерация должна начинаться с 1. К примеру для первого элемента массива ['Mango', 'Poly', 'Ajax'] 
 // с индексом 0 будет выведено '1 - Mango', а для индекса 2 выведет '3 - Ajax'.
 
-// const logItems = function(array) {
-//   // твой код
-// };
 
-// /*
-//  * Вызовы функции для проверки работоспособности твоей реализации.
-//  */
-// logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
-
-// logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
-
-// const array = [];
 
 // const logItems = function (array) {
 //     for (let i = 0; i < array.length; i += 1) {
@@ -44,9 +33,6 @@
 // принимающую строку (в строке будут только слова и пробелы) и цену гравировки одного слова, 
 // и возвращающую цену гравировки всех слов в строке.
 
-// АЛГОРИТМ РЕШЕНИЯ ЗАДАЧИ
-// 1. создай функцию calculateEngravingPrice
-// 2. 
 
 
 // const calculateEngravingPrice = function (message, pricePerWord) {  
@@ -254,7 +240,7 @@
 // console.log(includes(['mango', 'poly', 'ajax'], 'mango'));  
 
 
-// =====================================================================================  ЗАДАЧА 5 ==============================================================================================
+// =====================================================================================  ЗАДАЧА 6 ==============================================================================================
 
 
 
@@ -275,7 +261,48 @@
 // const numbers = [];
 // let total = 0;
 
+// 1. создаем prompt
+// 2. резульатат prompt добавляем в массив 
+// 3. 
 
 
 
+// let input = 0;
+// let numbers = [];
+// let total = 0;
 
+// while (input !== null) {
+
+//     input = prompt('Введите число');
+//     if (!isNaN(input) && input !== null) {
+
+//         numbers.push(+input); //(+input) это то же самое, что и Number(input) - приведение значения к числу
+
+//     } else if (isNaN(input)) {
+
+//         alert('Было введено не число, попробуйте еще раз');
+//     }
+// }
+// for (const number of numbers) {
+//     total += number;
+// }
+// alert(`Общая сумма чисел равна ${total}`);
+
+
+// let input;
+
+
+// const numbers = []; //создаем массив
+
+// while(true) {
+//     input = +prompt('enter your number');
+//     numbers.push(input);
+
+//     if (input === '' || input === null) {
+//         let total = 0;
+//         for (let i = 0; i < numbers.length; i++) {
+//             total += numbers[i];
+//         }
+//         console.log(total);
+//     }
+// }
