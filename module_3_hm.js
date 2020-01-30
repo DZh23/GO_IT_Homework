@@ -21,8 +21,8 @@ user.premium = false;
 
 
 const keys = Object.keys(user);
-console.table(user);
+
 
 for (const key of keys) {
-    console.table(`${[i]}: `, user[key]);  
+    console.log(`${key}:`, user[key]);  
 }
